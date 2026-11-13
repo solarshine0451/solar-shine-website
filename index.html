@@ -3,111 +3,89 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#082f2b">
-<meta name="description" content="Solar Shine provides professional solar panel washing and cleaning services in Unnao, Kanpur and Lucknow.">
 <title>Solar Shine | Solar Panel Cleaning</title>
+<meta name="description" content="Professional solar panel cleaning services in Unnao, Kanpur and Lucknow.">
 <style>
-:root{--green:#0b5b45;--deep:#082f2b;--lime:#d9f36a;--ink:#132a25;--muted:#63736e;--cream:#f7faf5;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--cream)}
-a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
-header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid #e6eee8}
-.nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.18rem;letter-spacing:-.5px;color:var(--deep)}
-.logo{width:40px;height:40px;border-radius:13px;background:var(--lime);display:grid;place-items:center;font-size:23px}
-.links{display:flex;align-items:center;gap:25px;font-size:.92rem;font-weight:650;color:#42534d}
-.nav-actions{display:flex;align-items:center;gap:10px}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:13px 20px;font-weight:750;cursor:pointer;transition:.2s}
-.btn:hover{transform:translateY(-2px)}.primary{background:var(--lime);color:var(--deep)}.dark{background:var(--deep);color:white}.outline{border:1px solid #d7e3da;background:white;color:var(--deep)}
-.hero{background:radial-gradient(circle at 80% 25%,#1c7556 0,#0b493b 34%,#082f2b 75%);color:white;overflow:hidden}
-.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:40px;padding:78px 0 84px}
-.eyebrow{display:inline-flex;gap:8px;align-items:center;background:#ffffff18;border:1px solid #ffffff30;border-radius:99px;padding:8px 13px;color:#e5f4d4;font-size:.82rem;font-weight:700}
-h1{font-size:clamp(2.5rem,5.5vw,4.7rem);line-height:1.02;letter-spacing:-2.8px;margin:22px 0 18px}
-h1 span{color:var(--lime)}.hero p{font-size:1.1rem;line-height:1.7;color:#d8e8df;max-width:560px}
-.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero .outline{background:#ffffff12;color:white;border-color:#ffffff55}
-.hero-note{font-size:.85rem!important;color:#bdd4c9!important;margin-top:18px}
-.visual{min-height:390px;position:relative;display:grid;place-items:center}
-.sun{position:absolute;width:290px;height:290px;border-radius:50%;background:linear-gradient(135deg,#f6f99a,#a6d94e);filter:drop-shadow(0 0 60px #d9f36a44)}
-.panel-art{position:relative;width:min(420px,100%);transform:rotate(-8deg);filter:drop-shadow(0 25px 24px #001b18aa)}
-.panel{height:210px;background:linear-gradient(135deg,#164f65,#082c40);border:7px solid #d7e5df;border-radius:13px;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr);overflow:hidden}
-.cell{border:1px solid #78a8b1; background:linear-gradient(135deg,#14516a,#0b354e)}
-.panel-base{height:17px;width:80%;background:#d7e5df;margin:auto;border-radius:0 0 8px 8px}
-.water{position:absolute;font-size:2.1rem}.w1{top:35px;right:15px}.w2{bottom:45px;left:5px}.w3{top:75px;left:5px}
-.trust{background:white;border-bottom:1px solid #e9f0eb}.trust-row{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;padding:23px 0;text-align:center}
-.trust strong{display:block;color:var(--deep);font-size:1.05rem}.trust span{font-size:.84rem;color:var(--muted)}
-section{padding:76px 0}.section-head{text-align:center;max-width:690px;margin:0 auto 38px}.kicker{color:var(--green);font-size:.78rem;text-transform:uppercase;letter-spacing:1.5px;font-weight:850}
-h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-1.4px;line-height:1.1;color:var(--deep);margin:12px 0}
-.section-head p{color:var(--muted);line-height:1.7}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:white;border:1px solid #e7eee8;border-radius:22px;padding:26px;box-shadow:0 10px 30px #173b2810}
-.icon{width:52px;height:52px;border-radius:16px;background:#eff8d7;display:grid;place-items:center;font-size:1.55rem;margin-bottom:18px}
-.card h3{margin:0 0 9px;color:var(--deep);font-size:1.15rem}.card p{color:var(--muted);line-height:1.65;font-size:.94rem;margin:0}
-.plans{background:#edf4eb}.plan{position:relative}.plan.featured{border:2px solid #9dc94d}.tag{position:absolute;right:18px;top:18px;background:var(--lime);color:var(--deep);font-size:.7rem;font-weight:850;padding:6px 10px;border-radius:99px}
-.plan .frequency{font-weight:800;color:var(--green);font-size:.84rem}.plan h3{font-size:1.35rem;margin:9px 0}.plan ul{padding-left:19px;color:var(--muted);line-height:1.9;font-size:.92rem;margin:14px 0 22px}
-.note{text-align:center;color:var(--muted);font-size:.84rem;margin-top:20px}
-.steps{counter-reset:step}.step{position:relative;padding-top:5px}.step:before{counter-increment:step;content:"0" counter(step);display:block;color:#9bbd4b;font-size:1.7rem;font-weight:900;margin-bottom:14px}
-.cta{background:var(--deep);color:white;border-radius:28px;padding:42px;display:flex;justify-content:space-between;align-items:center;gap:25px}
-.cta h2{color:white;margin:0 0 10px}.cta p{color:#c9ddd3;margin:0;line-height:1.6}
-footer{background:#061f1c;color:#d4e3dc;padding:38px 0 24px}.foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.foot p{color:#9eb8ac;max-width:420px;line-height:1.6}.copyright{border-top:1px solid #ffffff20;margin-top:28px;padding-top:18px;color:#91aaa0;font-size:.8rem}
-.mobile-menu{display:none}
-@media(max-width:800px){.links{display:none}.hero-grid{grid-template-columns:1fr;padding:58px 0 50px}.visual{min-height:300px}.sun{width:230px;height:230px}.panel{height:165px}.cards{grid-template-columns:1fr 1fr}.cta{align-items:flex-start;flex-direction:column}.trust-row{grid-template-columns:1fr;gap:12px}}
-@media(max-width:540px){.nav{height:66px}.nav-actions .outline{display:none}.hero-grid{gap:10px}.visual{min-height:250px}.cards{grid-template-columns:1fr}section{padding:58px 0}.trust-row{padding:18px 0}.cta{padding:28px 23px}h1{letter-spacing:-1.8px}}
+:root{--green:#073d34;--green2:#0b5b49;--lime:#d8f56a;--ink:#102b27;--muted:#63736f;--paper:#f5f8f3;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+header{position:sticky;top:0;z-index:5;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:12px 5%;box-shadow:0 2px 12px #082d2412}
+.brand{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:800;color:var(--green)}.logo{width:48px;height:48px;border-radius:14px;background:var(--lime);display:grid;place-items:center;font-size:27px}
+nav{display:flex;align-items:center;gap:12px}.lang{border:1px solid #d7e0d9;background:white;border-radius:22px;padding:9px 13px;font-weight:700;color:var(--green)}
+.btn{display:inline-block;text-decoration:none;border:0;border-radius:28px;padding:13px 21px;background:var(--lime);color:var(--ink);font-weight:800;font-size:16px;cursor:pointer}.btn.dark{background:var(--green);color:white}
+.hero{background:radial-gradient(circle at 80% 20%,#19735c,var(--green) 60%);color:white;padding:64px 5% 70px;overflow:hidden}
+.hero-inner{max-width:1050px;margin:auto}.eyebrow{display:inline-block;border:1px solid #ffffff55;border-radius:30px;padding:8px 14px;color:#e9f5d4;font-weight:700;font-size:13px}
+h1{font-size:clamp(38px,8vw,66px);line-height:1.04;max-width:700px;margin:28px 0 18px;letter-spacing:-2px}h1 span{color:var(--lime)}.hero p{font-size:19px;max-width:670px;color:#e1eee9}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.outline{background:transparent;color:white;border:1px solid #ffffff66}.areas{color:#d7e7df;font-size:14px;margin-top:22px}
+section{padding:54px 5%}.wrap{max-width:1050px;margin:auto}.section-title{font-size:32px;margin:0 0 10px;color:var(--green)}.lead{color:var(--muted);margin:0 0 26px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}.card{background:white;border:1px solid #e5ece5;border-radius:18px;padding:22px;box-shadow:0 8px 22px #0a3b2c08}.card .icon{font-size:30px}.card h3{margin:8px 0;color:var(--green)}
+.booking{background:#eaf2e8}.formbox{max-width:760px;background:white;border-radius:20px;padding:24px;box-shadow:0 10px 30px #0a3b2c0c}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-weight:700;font-size:14px}input,select,textarea{width:100%;padding:13px;border:1px solid #d6e0d8;border-radius:10px;font:inherit;background:#fff;color:var(--ink)}textarea{min-height:90px;resize:vertical}.note{font-size:13px;color:var(--muted);margin:12px 0 0}.status{margin-top:14px;font-weight:700;color:var(--green)}
+footer{background:#062e28;color:#d9e9e1;padding:30px 5%;text-align:center}footer strong{color:var(--lime)}
+@media(max-width:600px){header{padding:10px 4%}.brand{font-size:18px}.logo{width:40px;height:40px}.grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero{padding-top:48px}section{padding:42px 5%}.section-title{font-size:28px}}
 </style>
 </head>
 <body>
 <header>
- <div class="wrap nav">
-  <a class="brand" href="#"><span class="logo">☀️</span><span>SOLAR SHINE</span></a>
-  <nav class="links"><a href="#services">Services</a><a href="#plans">Cleaning Plans</a><a href="#how">How It Works</a><a href="#contact">Contact</a></nav>
-  <div class="nav-actions"><a class="btn outline" href="#contact">Customer Login</a><a class="btn dark" href="#contact">Book Cleaning</a></div>
- </div>
+  <div class="brand"><div class="logo">☀️</div><span>SOLAR SHINE</span></div>
+  <nav><button class="lang" id="langBtn" type="button">हिंदी</button><a class="btn dark" href="#booking" data-en="Book Cleaning" data-hi="बुकिंग करें">Book Cleaning</a></nav>
 </header>
 <main>
- <div class="hero">
-  <div class="wrap hero-grid">
-   <div>
-    <div class="eyebrow">☀️ PROFESSIONAL SOLAR PANEL CLEANING</div>
-    <h1>Clean panels.<br><span>More sunshine.</span></h1>
-    <p>Keep your solar panels clean and performing at their best. Solar Shine brings convenient, careful and reliable solar panel washing right to your rooftop.</p>
-    <div class="hero-buttons"><a class="btn primary" href="#contact">Book a Cleaning →</a><a class="btn outline" href="#services">Explore Services</a></div>
-    <p class="hero-note">Currently planned service areas: Unnao • Kanpur • Lucknow</p>
-   </div>
-   <div class="visual" aria-label="Illustration of clean solar panels">
-    <div class="sun"></div><div class="water w1">💧</div><div class="water w2">✨</div><div class="water w3">💧</div>
-    <div class="panel-art"><div class="panel"><i class="cell"></i><i class="cell"></i><i class="cell"></i><i class="cell"></i><i class="cell"></i><i class="cell"></i><i class="cell"></i><i class="cell"></i></div><div class="panel-base"></div></div>
-   </div>
+<section class="hero">
+ <div class="hero-inner">
+  <div class="eyebrow" data-en="☀️ PROFESSIONAL SOLAR PANEL CLEANING" data-hi="☀️ प्रोफेशनल सोलर पैनल क्लीनिंग">☀️ PROFESSIONAL SOLAR PANEL CLEANING</div>
+  <h1 data-en-html="Clean panels.<br><span>More sunshine.</span>" data-hi-html="साफ पैनल।<br><span>ज़्यादा धूप, बेहतर प्रदर्शन।</span>">Clean panels.<br><span>More sunshine.</span></h1>
+  <p data-en="Keep your solar panels clean and performing at their best. Solar Shine brings convenient, careful and reliable solar panel washing right to your rooftop." data-hi="अपने सोलर पैनलों को साफ रखें और उनका प्रदर्शन बेहतर बनाएँ। Solar Shine आपके घर की छत पर सावधानीपूर्वक और भरोसेमंद सफाई सेवा पहुँचाता है।">Keep your solar panels clean and performing at their best. Solar Shine brings convenient, careful and reliable solar panel washing right to your rooftop.</p>
+  <div class="hero-actions"><a class="btn" href="#booking" data-en="Book a Cleaning →" data-hi="सफाई बुक करें →">Book a Cleaning →</a><a class="btn outline" href="#services" data-en="Explore Services" data-hi="सेवाएँ देखें">Explore Services</a></div>
+  <div class="areas" data-en="Planned service areas: Unnao • Kanpur • Lucknow" data-hi="प्रस्तावित सेवा क्षेत्र: उन्नाव • कानपुर • लखनऊ">Planned service areas: Unnao • Kanpur • Lucknow</div>
+ </div>
+</section>
+<section id="services">
+ <div class="wrap">
+  <h2 class="section-title" data-en="Our Services" data-hi="हमारी सेवाएँ">Our Services</h2>
+  <p class="lead" data-en="Simple, careful cleaning for homes and businesses." data-hi="घरों और व्यवसायों के लिए आसान और सावधानीपूर्वक सफाई।">Simple, careful cleaning for homes and businesses.</p>
+  <div class="cards">
+   <article class="card"><div class="icon">💧</div><h3 data-en="Regular Washing" data-hi="नियमित धुलाई">Regular Washing</h3><p data-en="A careful wash to remove everyday dust and dirt." data-hi="रोज़मर्रा की धूल और गंदगी हटाने के लिए सावधानीपूर्वक धुलाई।">A careful wash to remove everyday dust and dirt.</p></article>
+   <article class="card"><div class="icon">✨</div><h3 data-en="Deep Cleaning" data-hi="डीप क्लीनिंग">Deep Cleaning</h3><p data-en="Extra attention for panels that need a more thorough clean." data-hi="जिन पैनलों को अधिक सफाई की ज़रूरत है, उनके लिए विशेष सफाई।">Extra attention for panels that need a more thorough clean.</p></article>
+   <article class="card"><div class="icon">📅</div><h3 data-en="Scheduled Maintenance" data-hi="नियमित मेंटेनेंस">Scheduled Maintenance</h3><p data-en="One-time or recurring cleaning plans." data-hi="एक बार या नियमित अंतराल पर सफाई की सुविधा।">One-time or recurring cleaning plans.</p></article>
   </div>
  </div>
- <div class="trust"><div class="wrap trust-row"><div><strong>Careful Cleaning</strong><span>Panel-friendly cleaning approach</span></div><div><strong>Easy Booking</strong><span>Request a convenient service slot</span></div><div><strong>Local Service</strong><span>Starting with Unnao and nearby cities</span></div></div></div>
- <section id="services">
-  <div class="wrap"><div class="section-head"><div class="kicker">What we do</div><h2>Solar cleaning made simple</h2><p>Dust, dirt and bird droppings can collect on solar panels. Regular, appropriate cleaning helps keep the panel surface clear.</p></div>
-   <div class="cards">
-    <article class="card"><div class="icon">💦</div><h3>Solar Panel Washing</h3><p>Careful washing to remove common rooftop dust and surface dirt using a suitable cleaning method.</p></article>
-    <article class="card"><div class="icon">🧽</div><h3>Deep Cleaning</h3><p>More detailed cleaning for panels that need extra attention. Service scope is confirmed before booking.</p></article>
-    <article class="card"><div class="icon">📅</div><h3>Scheduled Maintenance</h3><p>Choose a recurring cleaning schedule to make panel care easier throughout the year.</p></article>
+</section>
+<section class="booking" id="booking">
+ <div class="wrap">
+  <h2 class="section-title" data-en="Book a Cleaning" data-hi="सफाई की बुकिंग करें">Book a Cleaning</h2>
+  <p class="lead" data-en="Share your details. Our team will contact you to confirm availability and price." data-hi="अपनी जानकारी भरें। उपलब्धता और कीमत की पुष्टि के लिए हमारी टीम आपसे संपर्क करेगी।">Share your details. Our team will contact you to confirm availability and price.</p>
+  <form class="formbox" id="bookingForm">
+   <div class="grid">
+    <div class="field"><label for="name" data-en="Your name" data-hi="आपका नाम">Your name</label><input id="name" name="name" required autocomplete="name" placeholder="Name / नाम"></div>
+    <div class="field"><label for="phone" data-en="Mobile number" data-hi="मोबाइल नंबर">Mobile number</label><input id="phone" name="phone" type="tel" inputmode="numeric" pattern="[0-9+\-\s]{10,15}" required placeholder="10-digit mobile number"></div>
+    <div class="field"><label for="city" data-en="City" data-hi="शहर">City</label><select id="city" name="city" required><option value="">Select city / शहर चुनें</option><option>Unnao</option><option>Kanpur</option><option>Lucknow</option><option>Other</option></select></div>
+    <div class="field"><label for="panels" data-en="Number of solar panels" data-hi="सोलर पैनलों की संख्या">Number of solar panels</label><input id="panels" name="panels" type="number" min="1" required placeholder="e.g. 8"></div>
+    <div class="field"><label for="plan" data-en="Cleaning plan" data-hi="सफाई प्लान">Cleaning plan</label><select id="plan" name="plan" required><option value="">Choose plan / प्लान चुनें</option><option value="One-time">One-time / एक बार</option><option value="Monthly">Monthly / हर महीने</option><option value="Every two months">Every two months / हर 2 महीने</option></select></div>
+    <div class="field"><label for="date" data-en="Preferred date" data-hi="पसंदीदा तारीख">Preferred date</label><input id="date" name="date" type="date" required></div>
+    <div class="field full"><label for="address" data-en="Full address" data-hi="पूरा पता">Full address</label><textarea id="address" name="address" required placeholder="House / area / landmark"></textarea></div>
+    <div class="field full"><button class="btn dark" type="submit" data-en="Submit Booking Request" data-hi="बुकिंग अनुरोध भेजें">Submit Booking Request</button></div>
    </div>
-  </div>
- </section>
- <section class="plans" id="plans">
-  <div class="wrap"><div class="section-head"><div class="kicker">Flexible options</div><h2>Choose your cleaning plan</h2><p>Select a one-time service or a recurring schedule. Final price will depend on panel count, site access and service location.</p></div>
-   <div class="cards">
-    <article class="card plan"><div class="frequency">ONE-TIME SERVICE</div><h3>One Time Cleaning</h3><p>For a quick refresh whenever your panels need attention.</p><ul><li>Single visit</li><li>Panel count confirmed</li><li>Convenient appointment request</li></ul><a class="btn dark" href="#contact">Enquire Now</a></article>
-    <article class="card plan featured"><span class="tag">POPULAR</span><div class="frequency">RECURRING SERVICE</div><h3>Monthly Cleaning</h3><p>Keep a regular cleaning routine with a monthly visit.</p><ul><li>Monthly schedule</li><li>Planned service reminders</li><li>Consistent panel care</li></ul><a class="btn dark" href="#contact">Enquire Now</a></article>
-    <article class="card plan"><div class="frequency">CUSTOM SCHEDULE</div><h3>Every 2 Months</h3><p>A periodic cleaning plan based on your rooftop conditions.</p><ul><li>One visit every two months</li><li>Flexible scheduling</li><li>Service plan confirmation</li></ul><a class="btn dark" href="#contact">Enquire Now</a></article>
-   </div><p class="note">Pricing will be shared after confirming your location and number of solar panels.</p>
-  </div>
- </section>
- <section id="how">
-  <div class="wrap"><div class="section-head"><div class="kicker">Simple process</div><h2>How Solar Shine works</h2><p>Booking should be easy from your phone. Here is the planned customer journey.</p></div>
-   <div class="cards steps">
-    <article class="card step"><h3>Tell us about your system</h3><p>Share your name, location and approximate number of solar panels.</p></article>
-    <article class="card step"><h3>Confirm your service</h3><p>We confirm the service scope, available slot and final price with you.</p></article>
-    <article class="card step"><h3>Get your panels cleaned</h3><p>Our service team visits at the agreed time and completes the cleaning.</p></article>
-   </div>
-  </div>
- </section>
- <section id="contact">
-  <div class="wrap"><div class="cta"><div><div class="kicker" style="color:#d9f36a">READY FOR CLEANER PANELS?</div><h2>Let's bring back the shine.</h2><p>Customer registration, online booking and payment options will be added in the next development step.</p></div><a class="btn primary" href="mailto:hello@solarshine.in?subject=Solar%20Panel%20Cleaning%20Enquiry">Send an Enquiry →</a></div></div>
- </section>
+   <p class="note" data-en="Note: This is the booking form preview. Online submission and booking confirmation will be activated after connecting the website to the secure database." data-hi="ध्यान दें: यह बुकिंग फॉर्म का प्रारंभिक रूप है। सुरक्षित डेटाबेस जोड़ने के बाद ऑनलाइन बुकिंग और पुष्टि सक्रिय होगी।">Note: This is the booking form preview. Online submission and booking confirmation will be activated after connecting the website to the secure database.</p>
+   <div class="status" id="status" role="status"></div>
+  </form>
+ </div>
+</section>
 </main>
-<footer><div class="wrap"><div class="foot"><div><a class="brand" href="#" style="color:white"><span class="logo">☀️</span><span>SOLAR SHINE</span></a><p>Professional solar panel washing and cleaning services. Helping keep your rooftop solar panels clean, with convenient local service.</p></div><div><strong>Planned Service Areas</strong><p>Unnao · Kanpur · Lucknow</p></div></div><div class="copyright">© 2026 Solar Shine. Website preview — booking and account features are not active yet.</div></div></footer>
+<footer><strong>SOLAR SHINE</strong><br><span data-en="Solar panel cleaning services • Unnao, Kanpur & Lucknow" data-hi="सोलर पैनल सफाई सेवा • उन्नाव, कानपुर और लखनऊ">Solar panel cleaning services • Unnao, Kanpur & Lucknow</span></footer>
+<script>
+let language='en';
+const langBtn=document.getElementById('langBtn');
+function setLanguage(lang){
+ language=lang;document.documentElement.lang=lang;
+ document.querySelectorAll('[data-en]').forEach(el=>{el.textContent=el.dataset[lang]});
+ document.querySelectorAll('[data-en-html]').forEach(el=>{el.innerHTML=el.dataset[lang+'Html']});
+ langBtn.textContent=lang==='en'?'हिंदी':'English';
+}
+langBtn.addEventListener('click',()=>setLanguage(language==='en'?'hi':'en'));
+document.getElementById('bookingForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ document.getElementById('status').textContent=language==='en'
+ ?'Thank you. The form preview is working; online booking will be enabled after database setup.'
+ :'धन्यवाद। फॉर्म का प्रारंभिक परीक्षण सफल है; डेटाबेस जोड़ने के बाद ऑनलाइन बुकिंग सक्रिय होगी।';
+});
+</script>
 </body>
 </html>
